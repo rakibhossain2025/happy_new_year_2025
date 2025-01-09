@@ -23,7 +23,6 @@ marquee{
   border: 2px solid rgba(159, 11, 245, 0.849);
   text-transform: capitalize;
 }
-
 /* banner desin  */
 .banner{
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.532)), url('images/Banner\ Image.png');
@@ -73,7 +72,6 @@ marquee{
   margin: 24px auto;
   height: 500px;
   width: 800px;
-
 }
 /* years desin  */
 .year2024{
@@ -108,8 +106,8 @@ marquee{
   color: rgba(255, 255, 255,80%);
 }
 .helpless-btn{
-  margin-top: 15px;}
-
+  margin-top: 15px;
+}
 .btn-2024{
   color: rgba(255, 255, 255);
   font-size: 18px;
@@ -216,14 +214,9 @@ marquee{
   font-size: small;
   color: rgba(7, 2, 17, 60%);
 }
-/* .p-head{ */
-  /* max-width: 450px;
-  margin: 0 auto; */
-/* } */
 .hliy-red{
   color: red;
 }
-
 /* img style  */
 .img-down{
   background-image: url("images/Rectangle\ 2.png");
@@ -284,7 +277,6 @@ marquee{
 }
 .img-galary-galary{
   width: 100%;
-  
 }
 /* newslate */
 .newslatter-main{
@@ -335,7 +327,6 @@ marquee{
   color: #FFFFFF;
   border: none;
   cursor: pointer;
-
 }
 /* foter style  */
 .fotter{
@@ -400,6 +391,7 @@ marquee{
 }
 .common-des-texte-texe{
   font-size: 15px;
+  color: white;
   font-family: inter;
   text-transform: capitalize;
 }
