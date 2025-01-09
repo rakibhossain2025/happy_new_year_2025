@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/* font */
+.font-inter{
+  font-family: inter;
+}
+.font-Merriweather{
+  font-family: Merriweather;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+/* banner desin  */
+.banner{
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.532)), url('images/Banner\ Image.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 95%;
+  border-radius: 10px;
+  height: 500px;
+  margin:  50px auto;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+}
+.banner-text h3{
+  font-size: 32px;
+  font-weight: 300;
+}
+.banner-text h1{
+  font-size: 72px;
+  font-weight: bold;
+}
+/* years desin  */
+.year2024{
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.53)), url('images/Vectorrr.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 95%;
+  border-radius: 10px;
+  height: 500px;
+  margin:  120px auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img-vectry .img2024{
+  margin: 60px 100px 0px 0px;
+  width: 250px;
+  height: 350px;
+}
+.year-text{
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-left: 120px;
+}
+.year-head{
+  font-size: 55px;
+}
+.year-description{
+  font-size: 12px;
+  margin-top: 10px;
+  color: rgba(255, 255, 255,80%);
+}
+.helpless-btn{
+  margin-top: 15px;}
+
+.btn-2024{
+  color: rgba(255, 255, 255);
+  font-size: 18px;
+  text-decoration: none;
+  border: 2px solid red;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+/* where  style*/
+.where{
+  background: linear-gradient(to bottom, rgba(255, 0, 0, 0.596),
+   rgba(255, 0, 0, 0));
+  width: auto;
+  margin: 120px 140px;
+  height: 300px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+}
+.text-red{
+  color: red;
+}
+.where-h3{
+  /* display: block; */
+}
+
+
+
+
+.boss{
+  width: 500px;
+  height: 300px;
+  background-color: aquamarine;
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textk{
+  padding: 20px;
+  text-align: center;
+}
