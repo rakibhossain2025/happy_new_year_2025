@@ -11,6 +11,19 @@
   margin: 0;
   padding: 0;
 }
+/* marka style  */
+marquee{
+  background-color: rgba(172, 255, 116, 0.541);
+  height: 30px;
+  margin: 10px 5px;
+  font-size: 20px;
+  padding: 10px 5px;
+  border-radius: 10px;
+  color: rgb(255, 0, 221);
+  border: 2px solid rgba(159, 11, 245, 0.849);
+  text-transform: capitalize;
+}
+
 /* banner desin  */
 .banner{
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.212), rgba(0, 0, 0, 0.532)), url('images/Banner\ Image.png');
@@ -20,7 +33,7 @@
   width: 95%;
   border-radius: 10px;
   height: 500px;
-  margin:  50px auto;
+  margin:  20px auto;
   display: flex;
   text-align: center;
   justify-content: center;
@@ -34,6 +47,33 @@
 .banner-text h1{
   font-size: 72px;
   font-weight: bold;
+}
+/* offre desin  */
+.offer-text{
+  font-size: 88px;
+  color: #ff0000;
+  text-align: center;
+  margin: 120px auto 5px auto;
+  font-weight: bold;
+}
+.offer-des{
+  font-size: 20px;
+  color: #ff0000;
+  text-align: center;
+}
+.offer-type{
+  text-align: center;
+  margin: 16px 0 24px 0;
+  font-size: 38px;
+}
+.offer-conent{
+  display: flex;
+}
+.offer-img{
+  margin: 24px auto;
+  height: 500px;
+  width: 800px;
+
 }
 /* years desin  */
 .year2024{
@@ -81,7 +121,7 @@
 /* where  style*/
 .where{
   background: linear-gradient(to bottom, rgba(255, 0, 0, 0.596),
-   rgba(255, 0, 0, 0));
+   rgba(255, 0, 0, 0.010));
   width: auto;
   margin: 120px 140px;
   height: 300px;
@@ -97,22 +137,51 @@
   color: red;
 }
 .where-h3{
-  /* display: block; */
+  color: #000000;
 }
-
-
-
-
-.boss{
-  width: 500px;
-  height: 300px;
-  background-color: aquamarine;
-  margin: 50px auto;
+.btn-whrer{
+  background-color: red;
+  padding: 16px 32px;
+  margin-top: 20px;
+  border-radius: 10px;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* 2024 comming soom  */
+.container{
+  width: 90%;
+  gap: 50px;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0 auto;
 }
-.textk{
-  padding: 20px;
-  text-align: center;
+.left-a{
+  width: 320px;
+}
+.problem-h{
+  color: red;
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-family: inter;
+}
+.problem-h2{
+  font-size: 40px;
+  margin-bottom: 15px;
+  font-family: Merriweather;
+}
+.problem-des{
+  font-size: 10px;
+  font-family: inter;
+  color: #070211;
+}
+.img-border{
+  width: 300px;
+  height: 300px;
+  border: 10px solid red;
+  border-radius: 100%;
+  display: flex;
+}
+.in-img{
+  width: 100%;
+  padding: 10px;
 }
